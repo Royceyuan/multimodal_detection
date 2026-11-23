@@ -1,0 +1,24 @@
+# Linux Python3.10; CUDA11.7 PyTorch/MMCV prebuilt wheels.
+pip==24.3.1
+--extra-index-url https://download.pytorch.org/whl/cu117
+--find-links https://download.openmmlab.com/mmcv/dist/cu117/torch1.13/index.html
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+mmcv-full==1.7.0
+numpy==1.24.4
+Pillow==10.4.0
+opencv-python-headless==4.10.0.84
+yapf==0.40.1
+setuptools==69.5.1
+wheel==0.43.0
+matplotlib<3.8
+pycocotools>=2.0.6,<2.0.11
+six
+terminaltables
+fairscale==0.4.13
+scipy<1.12
+timm==0.6.13
+fvcore
+tensorboard
+einops
+cython<3
